@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1376px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-sign {
+  display: flex;
+  margin-top: 21px;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 89px;
+}
+.logo a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sign-main {
+  width: 431px;
+  margin-left: 80px;
+}
+
+.sign-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.sign-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 6px;
+}
+.sign-text a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sign-social {
+  margin-top: 31px;
+  text-align: center;
+  color: #b5b5b5;
+
+}
+
+.sign-list {
+  width: 165px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: auto;
+  margin-top: 31px;
+}
+
+.sign-bottom {
+  background: #0C21C1;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.sign-btn {
+  padding: 14px 191px;
+}
+
+.sign-register-btn {
+  padding: 14px 180px;
+  margin-top: 20px;
+
+}
+
+/* INPUT PART  */
+
+.sign-form {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #999999;
+  margin-top: 52px;
+}
+
+.sign-label-email {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000842;
+}
+
+
+.sign-label-all::before {
+  content: '';
+  width: 18px;
+  height: 17px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 8px;
+  padding-left: 5px;
+}
+.sign-label-email::before {
+  background-image: url('../images/message-img.svg');
+}
+
+
+.sign-input {
+  width: 430px;
+  padding: 7px 15px;
+  margin-top: 5px;
+  border: none;
+  margin-bottom: 8px;
+}
+
+.sign-label-pass {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #999999;
+}
+
+.sign-label-pass::before {
+  background-image: url('../images/padlock-img.svg');
+}
+
+.sign-label-pass::after {
+  content: '';
+  width: 18px;
+  height: 17px;
+  display: inline-block;
+  background-image: url('../images/invisible-img.svg');
+  background-repeat: no-repeat;
+}
+
+.sign-label-user {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #999999;
+}
+.sign-label-user::before {
+  background-image: url('../images/user-img.svg');
+}
+
+
+.sign-check {
+  width: 431px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-top: 17px;
+}
+
+.sign-check-right {
+  padding-left: 190px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+.sign-main input[type=checkbox] {
+  margin-right: 10px;
+}
+
+
+/* IMG PART  */
+
+.sign-img {
+  background-color: #000842;
+  background-image: url('../images/saly-img.png');
+  background-repeat: no-repeat;
+  background-position: 123px 64px;
+  width: 735px;
+  height: 859px;
+  border-radius: 15px;
+  margin-left: 130px;
+  padding-left: 98px;
+}
+
+.sign-img-namber {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  margin-top: 25px;
+  margin-right: 28px;
+}
+
+.sign-img-namber::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-image: url('../images/phone-img.svg');
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.sign-img-title {
+  width: 396px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  margin-top: 590px;
+}
+
+.sign-img-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 4px;
+}
+
+/* REGISTER PART  */
