@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  min-height: 100vh;
 }
 
 .container {
@@ -208,6 +209,13 @@ body {
   color: #fff;
   margin-top: 25px;
   margin-right: 28px;
+}
+
+.sign-img-namber a {
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .sign-img-namber::before {
