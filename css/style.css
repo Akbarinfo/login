@@ -134,6 +134,9 @@ body {
   border: none;
   margin-bottom: 8px;
 }
+.sign-input:focus {
+  outline: none;
+}
 
 .sign-label-pass {
   display: flex;
@@ -243,5 +246,3 @@ body {
   color: #fff;
   margin-top: 4px;
 }
-
-/* REGISTER PART  */
